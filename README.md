@@ -16,7 +16,7 @@ Connect a [reed switch](https://en.wikipedia.org/wiki/Reed_switch) to your door,
 
   In addition to the switch itself, you will need a single 330 ohm resistor, as shown here:
 
-  ![Circuit schematic]("schematic/RPi Reed Switch.png?raw=true" "Circuit schematic")
+  ![Circuit schematic](schematic/RPi Reed Switch.png?raw=true "Circuit schematic")
 
   ![Breadboard test](http://i.imgur.com/KggrWfL.jpg "Breadboard test")
 
