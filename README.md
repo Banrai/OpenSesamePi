@@ -20,7 +20,7 @@ Connect a [reed switch](https://en.wikipedia.org/wiki/Reed_switch) to your door,
 
   ![Breadboard test](http://i.imgur.com/KggrWfL.jpg "Breadboard test")
 
-2. Install the reed switch on the door
+2. Install the reed switch on the door (make sure the door opens cleanly with the switch in place)
 
   ![Reed switch on door](http://i.imgur.com/fNtReLQ.jpg "Reed switch on door")
 
@@ -51,7 +51,7 @@ sudo apt-get -y install ssmtp mailutils
 sudo vi /etc/ssmtp/ssmtp.conf
 ```
 
-  You need these lines defined at a minimum, replacing the [gmail][https://gmail.com/] coordinates with your own. You can of course use any other SMTP mailserver of your choice:
+  You need these lines defined at a minimum, replacing the [gmail](https://gmail.com/) coordinates with your own. You can of course use any other SMTP mailserver of your choice:
 
   ```sh 
 root=postmaster
