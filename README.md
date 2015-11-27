@@ -18,7 +18,11 @@ Connect a [reed switch](https://en.wikipedia.org/wiki/Reed_switch) to your door,
 
   ![Circuit schematic](schematic/RPi Reed Switch.png?raw=true "Circuit schematic")
 
+  Be sure to look at the [interactive schematic](schematic/RPi Reed Switch.fzz) using the Fritzing [desktop application](https://github.com/fritzing/fritzing-app).
+
   ![Breadboard test](http://i.imgur.com/KggrWfL.jpg "Breadboard test")
+
+  Test on a breadboard before soldering things together.
 
 2. Install the reed switch on the door (make sure the door opens cleanly with the switch in place)
 
@@ -51,7 +55,7 @@ sudo apt-get -y install ssmtp mailutils
 sudo vi /etc/ssmtp/ssmtp.conf
 ```
 
-  You need these lines defined at a minimum, replacing the [gmail](https://gmail.com/) coordinates with your own. You can of course use any other SMTP mailserver of your choice:
+  You need these lines defined at a minimum, replacing the [gmail](https://gmail.com/) coordinates with your own (you can of course use any other SMTP mailserver of your choice):
 
   ```sh 
 root=postmaster
@@ -62,7 +66,7 @@ AuthPass=YourGMailPassword
 UseSTARTTLS=YES
 ```
 
-  Note that if you do use gmail, you will also need to update the [Allow less secure apps](https://www.google.com/settings/security/lesssecureapps) setting for this method to work.
+  <i>Note:</i> if you do use gmail, you will also need to update the [Allow less secure apps](https://www.google.com/settings/security/lesssecureapps) setting for this method to work.
 
 3. Define the list of email addresses that should get the opened/closed alerts
 
